@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.option {
+  padding: 15px;
+}
+.label {
+  padding-left: 10px;
+}
+.esri-legend__layer-body {
+  /* display: none; */
+}
+.p {
+  font-weight: 700;
+}
+.esri-view-width-xsmall .esri-expand--auto .esri-expand__mask--expanded {
+  background-color: #00000080;
+}
